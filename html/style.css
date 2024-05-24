@@ -1,0 +1,164 @@
+body{
+            background: #2b2b2b;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topbar {
+            background: #1a1a1a;
+            color: white;
+            margin-top: 0;
+            font-size: 200%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 20px;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 0px 0px 5px black;
+        }
+        
+        .emojilist {
+            margin-right: 10px;
+            font-size: 15px;
+        }
+
+        input {
+          padding: 12px 20px;
+          margin: 8px 0;
+          border: 3px solid #ccc;
+          border-radius: 16px;
+          box-sizing: border-box;
+          background-color: #e3e3e3;
+          outline: 0px;
+        }
+
+        .UsernameInput {
+          position: fixed;
+          background: white;
+          right: 375px;
+          top: 20px;
+        }
+
+        .RoomInput {
+          position: fixed;
+          background: white;
+          right: 120px;
+          top: 20px;
+        }
+
+        .Message{
+          color: white;
+          font-size: 15px;
+        }
+
+        .themebutton {
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          }
+
+            /* The switch - the box around the slider */
+            .switch {
+              position: fixed;
+              display: inline-block;
+              width: 60px;
+              height: 34px;
+              right: 10px;
+              bottom: 10px;
+            }
+
+            /* Hide default HTML checkbox */
+            .switch input {
+              opacity: 0;
+              width: 0;
+              height: 0;
+            }
+
+            /* The slider */
+            .slider {
+              position: absolute;
+              cursor: pointer;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-color: #B64FC8;
+              -webkit-transition: .4s;
+              transition: .4s;
+            }
+
+            .slider:before {
+              position: absolute;
+              content: "";
+              height: 26px;
+              width: 26px;
+              left: 4px;
+              bottom: 4px;
+              background-color: white;
+              -webkit-transition: .4s;
+              transition: .4s;
+            }
+
+            input:checked + .slider {
+              background-color: #02a9f0;
+            }
+
+            input:focus + .slider {
+              box-shadow: 0 0 1px #02a9f0;
+            }
+
+            input:checked + .slider:before {
+              -webkit-transform: translateX(26px);
+              -ms-transform: translateX(26px);
+              transform: translateX(26px);
+            }
+
+            /* Rounded sliders */
+            .slider.round { 
+              border-radius: 34px;
+            }
+
+            .slider.round:before {
+              border-radius: 50%;
+            }
+        
+        .SendButton {
+          position: fixed;
+          bottom: 20px;
+          left: 270px;
+  background-color: #B64FC8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+            font-size: 15px;
+}
+
+        .ConnectButton {
+          position: fixed;
+          right: 10px;
+          top: 30px;
+  background-color: #B64FC8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+            font-size: 15px;
+}
+
+        .MessageInput {
+          position: fixed;
+          bottom: 10px;
+          left: 10px;
+        }
